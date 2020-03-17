@@ -5,7 +5,7 @@
     <link
       href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i%7CPT+Sans:400,700&display=swap&subset=cyrillic-ext"
       rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/normalize-min.css"/>
     <link rel="stylesheet" href="css/style-min.css"/>
     <title>HTML Academy: Техномарт</title>
   </head>
@@ -25,7 +25,7 @@
       </div>
       <div class="container">
         <section class="top-middle">
-          <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+          <h1>Интернет-магазин строительных материалов<br> и инструментов для ремонта</h1>
           <address class="top-addres">
             <a class="tel" href="tel:+78125550555">+7 (812) 555-05-55</a>
             <span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
@@ -130,11 +130,15 @@
       <div class="rigth-block">
         <div class="sort">
           <p>СОРТИРОВКА:</p>
-          <a class="sort-link" href="#">ПО ЦЕНЕ</a>
-          <a class="sort-link" href="#">ПО ТИПУ</a>
-          <a class="sort-link" href="#">ПО ФУНКЦИОНАЛУ</a>
-          <a class="sort-up" href="#"><span class="visually-hidden">Сортировать сверху</span><svg class="sort-svg" xmlns="http://www.w3.org/2000/svg" fill="#c5c5c5" width="11" height="10" viewBox="0 0 11 10"><path  d="M5.5 0L0 10h11z"/></svg></a>
-          <a class="sort-down" href="#"><span class="visually-hidden">Сортировать снизу</span><svg class="sort-svg" xmlns="http://www.w3.org/2000/svg" fill="#c5c5c5" width="11" height="10" viewBox="0 0 11 10"><path  d="M5.5 10L0 0h11"/></svg></a>
+            <ul class="sort-type">
+              <li><a class="sort-link sort-link-active" href="#">ПО ЦЕНЕ</a></li>  
+              <li><a class="sort-link" href="#">ПО ТИПУ</a></li> 
+              <li><a class="sort-link" href="#">ПО ФУНКЦИОНАЛУ</a></li>
+            </ul>
+          <div class="sort-direction"> 
+            <a class="sort-up" href="#"><span class="visually-hidden">Сортировать сверху</span><svg class="sort-svg" xmlns="http://www.w3.org/2000/svg" fill="#c5c5c5" width="11" height="10" viewBox="0 0 11 10"><path  d="M5.5 0L0 10h11z"/></svg></a>
+            <a class="sort-down" href="#"><span class="visually-hidden">Сортировать снизу</span><svg class="sort-svg" xmlns="http://www.w3.org/2000/svg" fill="#c5c5c5" width="11" height="10" viewBox="0 0 11 10"><path  d="M5.5 10L0 0h11"/></svg></a>
+          </div>  
         </div>
         <div class="goods">
           <div class="goods-items">    
@@ -143,8 +147,8 @@
                 <h2>Перфоратор BOSCH BFG 3000</h2>
                 <img src="img/bfg3000.png" width="218" height="170" alt="Перфоратор BOSH BFG 3000">
                 <p> 
-                  <del>22500Р.</del>
-                  <ins>15500Р.</ins>
+                  <del>22500 Р.</del>
+                  <ins>15500 Р.</ins>
                 </p>
                 <div class="hidden-button">
                   <div class="goods-button">
@@ -159,8 +163,8 @@
                 <h2>Перфоратор BOSCH BFG 6000</h2>
                 <img  src="img/bfg6000.png" width="218" height="170" alt="Перфоратор BOSH BFG 6000">
                 <p>
-                  <del>30500Р.</del>
-                  <ins>25500Р.</ins>
+                  <del>30500 Р.</del>
+                  <ins>25500 Р.</ins>
                 </p>
                 <div class="hidden-button">
                   <div class="goods-button">
@@ -176,7 +180,7 @@
                 <img class="novelty" src="img/new-flag.png" width="60" height="59" alt="Новинка">
                 <img src="img/bfg2000.png" width="218" height="170" alt="Перфоратор BOSH BFG 2000">
                 <p> 
-                  <ins>12500Р.</ins>
+                  <ins>12500 Р.</ins>
                 </p>
                 <div class="hidden-button">
                   <div class="goods-button">
@@ -191,8 +195,8 @@
                 <h2>Перфоратор BOSCH BFG 3000</h2>
                 <img src="img/bfg3000.png" width="218" height="170" alt="Перфоратор BOSH BFG 3000">
                 <p> 
-                  <del>22500Р.</del>
-                  <ins>15500Р.</ins>
+                  <del>22500 Р.</del>
+                  <ins>15500 Р.</ins>
                 </p>
                 <div class="hidden-button">
                   <div class="goods-button">
@@ -208,8 +212,8 @@
                 <img class="novelty" src="img/new-flag.png" width="60" height="59" alt="Новинка">
                 <img  src="img/bfg6000.png" width="218" height="170" alt="Перфоратор BOSH BFG 6000">
                 <p>
-                  <del>30500Р.</del>
-                  <ins>25500Р.</ins>
+                  <del>30500 Р.</del>
+                  <ins>25500 Р.</ins>
                 </p>
                 <div class="hidden-button">
                   <div class="goods-button">
@@ -224,7 +228,7 @@
                 <h2 class="no-sale">Перфоратор BOSCH BFG 2000</h2>
                 <img src="img/bfg2000.png" width="218" height="170" alt="Перфоратор BOSH BFG 2000">
                 <p> 
-                  <ins>12500Р.</ins>
+                  <ins>12500 Р.</ins>
                 </p>
                 <div class="hidden-button">
                   <div class="goods-button">
@@ -240,8 +244,8 @@
                 <img class="novelty" src="img/new-flag.png" width="60" height="59" alt="Новинка">
                 <img src="img/bfg3000.png" width="218" height="170" alt="Перфоратор BOSH BFG 3000">
                 <p> 
-                  <del>22500Р.</del>
-                  <ins>15500Р.</ins>
+                  <del>22500 Р.</del>
+                  <ins>15500 Р.</ins>
                 </p>
                 <div class="hidden-button">
                   <div class="goods-button">
@@ -256,8 +260,8 @@
                 <h2>Перфоратор BOSCH BFG 6000</h2>
                 <img  src="img/bfg6000.png" width="218" height="170" alt="Перфоратор BOSH BFG 6000">
                 <p>
-                  <del>30500Р.</del>
-                  <ins>25500Р.</ins>
+                  <del>30500 Р.</del>
+                  <ins>25500 Р.</ins>
                 </p>
                 <div class="hidden-button">
                   <div class="goods-button">
@@ -272,7 +276,7 @@
                 <h2 class="no-sale">Перфоратор BOSCH BFG 2000</h2>
                 <img src="img/bfg2000.png" width="218" height="170" alt="Перфоратор BOSH BFG 2000">
                 <p> 
-                  <ins>12500Р.</ins>
+                  <ins>12500 Р.</ins>
                 </p>
                 <div class="hidden-button">
                   <div class="goods-button">
@@ -348,12 +352,14 @@
           <li><a class="insta-link" href="#" aria-label="Мы в Инстаграм"></a></li>
         </ul>
         <div class="feedback">
-          <p >Обратная связь:</p>
-          <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          <p class="p-event">Обратная связь:
+            <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </p>
         </div>
         <div class="developed">
-          <p>Разработано &mdash;
-          <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+          <p class="p-event">Разработано &mdash;
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+          </p>
         </div>
       </div>
     </div>
